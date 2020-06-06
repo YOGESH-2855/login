@@ -6,8 +6,8 @@ import random
 import smtplib
  
 creds = 'teMpf1le.temp' 
-login_email="gmail" #enter your valid gmail id 
-login_paswd="paswword" #enter your password of gmail is which you have given above
+login_email="enter_your_gmail_here " #enter your valid gmail id 
+login_paswd="enter_your_paswword_here " #enter your password of gmail,which you have given above
 
  
 def Signup(): 
