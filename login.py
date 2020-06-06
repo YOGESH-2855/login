@@ -123,7 +123,6 @@ def CheckLogin():
         enc_pword = data[1].rstrip()
         code_1 = data[2].rstrip()
         keym=data[3].rstrip()
-        print(keym)
         x=Fernet(keym)
         dec_name = x.decrypt(enc_name)
         dec_pword = x.decrypt(enc_pword)
